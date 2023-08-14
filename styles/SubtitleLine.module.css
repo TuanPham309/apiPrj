@@ -1,0 +1,46 @@
+
+.timestampBlock {
+    display: flex;
+    width: 100px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color:bisque;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.contentBlock {
+    display: flex;
+    width: 350px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    background-color: aqua;
+    flex: 0 auto;
+    font-size: 15px;
+    text-align: left;
+    white-space: pre-wrap;
+}
+.transBlock {
+    display: flex;
+    width: 350px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    background-color:aliceblue;
+    flex: 0 auto;
+    font-size: 15px;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.lineContainer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid transparent;
+}
